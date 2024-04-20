@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore .env file
+.env
+
+# Ignore venv directory
+myenv/
+
+# Ignore driver directory
+driver/
+
+# Ignore credentials.json
+credentials/credentials.json
+
+
