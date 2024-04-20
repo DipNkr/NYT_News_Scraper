@@ -48,6 +48,10 @@ RECEIVER_EMAIL=receiver_email@gmail.com
 
 Replace `your_email@gmail.com` with your sender email and `your_app_password` with your Gmail App Password.
 
+## Create Service Account for Google Spreadsheet
+Create service account > Download credentials.json file.
+Place the downloaded credentials.json file in the credentials directory of your project.
+
 ### Run the Script
 
 To run the script, use the following command:
