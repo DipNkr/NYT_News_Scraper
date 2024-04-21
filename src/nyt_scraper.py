@@ -122,6 +122,25 @@ class NYTScraper:
             ).click()
 
             time.sleep(10)
+            ## Uncomment this block to enable Show More button and fetch all News Article
+            # xpath = "/html/body/div/div[2]/main/div/div[2]/div[2]/div/button"
+            # element_visible = True
+            #
+            # while element_visible:
+            #     try:
+            #         # Find the element by XPath
+            #         WebDriverWait(self.driver, 10).until(
+            #             EC.presence_of_element_located((By.XPATH, xpath))
+            #         ).click()
+            #
+            #         # Sleep for a short duration to allow the page to update
+            #         time.sleep(3)
+            #
+            #     except (NoSuchElementException, TimeoutException) as e:
+            #         # If the element is not found, set the flag to False to exit the loop
+            #         element_visible = False
+            #         logging.error("Enf of Show More")
+        
 
         except Exception as e:
             logging.error(f"Error searching news: {e}")
